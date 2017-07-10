@@ -10,11 +10,11 @@ int main(int argc, char** argv)
 #ifdef USE_MYMATH
 	inputValue = 2;
 	double outputValue = mysqrt(inputValue);
-	fprintf(stdout, "USE_MYMATH£º The square root of %g is %g\n", inputValue, outputValue);
+	fprintf(stdout, "USE_MYMATH: The square root of %g is %g\n", inputValue, outputValue);
 #else
 	inputValue = 3;
 	double outputValue = sqrt(inputValue);
-	fprintf(stdout, "USE_LIBMATH£º The square root of %g is %g\n", inputValue, outputValue);
+	fprintf(stdout, "USE_LIBMATH: The square root of %g is %g\n", inputValue, outputValue);
 #endif
 
 	return 0;
