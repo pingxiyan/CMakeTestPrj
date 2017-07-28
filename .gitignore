@@ -1,0 +1,6 @@
+cmake_test_add_all_file_once/
+!cmake_test_add_all_file_once/*.cpp
+!cmake_test_add_all_file_once/*.h
+!cmake_test_add_all_file_once/CMakeLists.txt
+
+
