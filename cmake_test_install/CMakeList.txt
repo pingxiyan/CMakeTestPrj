@@ -1,5 +1,0 @@
-set(TARGET_NAME testprj)
-
-project(${TARGET_NAME})
-
-
