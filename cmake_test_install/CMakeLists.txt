@@ -25,6 +25,7 @@ install(TARGETS ${TARGET_NAME}_mylib
 	)
 install(FILES mylib.h CONFIGURATIONS Release DESTINATION ${OUTPUT_DIR}/Release/install/include)
 
+
 # Target
 add_executable(${TARGET_NAME} main.cpp)
 
